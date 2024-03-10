@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "65bf50c9-d5bd-4643-81b5-ea7cd4a5d866",
+		"name": "New Collection1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14587959",
+		"_collection_link": "https://lively-shuttle-346423.postman.co/workspace/MyWorkspace~bb8fb536-9460-4538-a046-e42141a1b098/collection/6442330-65bf50c9-d5bd-4643-81b5-ea7cd4a5d866?action=share&source=collection_link&creator=14587959"
+	},
+	"item": [
+		{
+			"name": "Covid daily",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.covidtracking.com/v1/us/daily.json",
+					"protocol": "https",
+					"host": [
+						"api",
+						"covidtracking",
+						"com"
+					],
+					"path": [
+						"v1",
+						"us",
+						"daily.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "State wise covid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.covidtracking.com/v1/states/info.csv",
+					"protocol": "https",
+					"host": [
+						"api",
+						"covidtracking",
+						"com"
+					],
+					"path": [
+						"v1",
+						"states",
+						"info.csv"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.covidtracking.com/v1/us/daily.json",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.covidtracking.com/v1/us/daily.json",
+					"protocol": "https",
+					"host": [
+						"api",
+						"covidtracking",
+						"com"
+					],
+					"path": [
+						"v1",
+						"us",
+						"daily.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": " https://api.covidtracking.com/api/v1/states/CA/info.json",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.covidtracking.com/api/v1/states/CA/info.json",
+					"protocol": "https",
+					"host": [
+						"api",
+						"covidtracking",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"states",
+						"CA",
+						"info.json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

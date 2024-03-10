@@ -1,0 +1,19 @@
+{
+	"id": "11d0f4e4-d9d3-4d14-8c12-147e37f992da",
+	"values": [
+		
+
+		
+		
+		{
+			"key": "newurl",
+			"value": "https://reqres.in/api",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2024-03-08T15:13:52.617Z",
+	"_postman_exported_using": "Postman/10.23.8"
+}
